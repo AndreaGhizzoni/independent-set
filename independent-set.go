@@ -58,7 +58,7 @@ func IndependentSet(ranges []Interval) *list.List {
 
 func main() {
 	// Intervals slice.
-	intervals := []Interval{
+	R := []Interval{
 		{2, 5},
 		{1, 3},
 		{2, 7},
@@ -68,9 +68,9 @@ func main() {
 	}
 
 	fmt.Println("Set given:")
-	fmt.Println(intervals)
+	fmt.Println(R)
 	fmt.Println("Independent set of maximum cardinality:")
-	independentSet := IndependentSet(intervals)
+	independentSet := IndependentSet(R)
 	for e := independentSet.Front(); e != nil; e = e.Next() {
 		fmt.Print(e.Value, " ")
 	}

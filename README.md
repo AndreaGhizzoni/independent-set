@@ -8,12 +8,12 @@ Output: a set of maximum cardinality such that every interval not overlap with
 ```
 
 For example:
-Let the intervals set be: `I = {(2, 5) (1, 3) (2, 7) (4, 6) (4, 8) (2, 10)}
+Let the intervals set be: R = {(2, 5) (1, 3) (2, 7) (4, 6) (4, 8) (2, 10)}
 
 The independent set with maximum cardinality is: In = {(1, 3) (4, 6)}
 
 ## Try yourself
-Change I as you prefer in the file and run:
+Change R as you prefer in the file and run:
 ```bash
 go run independent-set.go
 ```
